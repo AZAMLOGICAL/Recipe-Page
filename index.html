@@ -51,7 +51,7 @@
       margin-right: auto;
       width : 50%;
       background-color: hsl(0, 0%, 100%);
-      padding : 50px px;
+      padding : 50px;
       border-radius : 20px;
     }
 
@@ -59,10 +59,45 @@
       margin: 20px;
     }
 
+    body{
+      background-color: hsl(30, 54%, 90%);
+      margin : 50px;
+      min-height: 100vh;
+    }
+
     @media only screen and (max-width : 375px){
       .container{
         width : 100%;
+        margin : 0;
       }
+
+      .content{
+        margin : 0px;
+      }
+
+      body{
+        margin : 0px;
+      }
+
+      .ingredients{
+        margin : 0;
+      }
+
+      .instructions{
+        margin :0;
+      }
+
+      .nutrition{
+        margin : 0;
+      }
+
+      .introduction{
+        margin : 0;
+      }
+
+      /* img{
+        width : 100%;
+      } */
     }
 
     .prep_time{
@@ -105,11 +140,6 @@
       color : hsl(332, 51%, 32%);
     }
 
-    body{
-      background-color: hsl(30, 54%, 90%);
-      margin : 50px;
-      min-height: 100vh;
-    }
 
     hr{
       border : 1px solid #ccc;
